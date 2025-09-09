@@ -16,7 +16,7 @@ members = ["impl"]
 
 [dependencies]
 erased-serde = { version = "0.4", default-features = false, features = ["alloc"] }
-inventory = "0.3.10"
+inventory = "0.3.21"
 once_cell = { version = "1.18", default-features = false, features = ["alloc"] }
 serde = { version = "1.0.166", default-features = false, features = ["alloc", "derive"] }
 typetag-impl = { version = "=0.2.20", path = "impl" }
